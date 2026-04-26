@@ -1,5 +1,5 @@
 ## 📸 Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 #  Dashboard de Vendas
 
