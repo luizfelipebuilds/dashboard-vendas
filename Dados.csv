@@ -1,0 +1,31 @@
+id_venda,cliente,data,valor,produto,estado
+1,Joao,10/01/2024,100,Mouse,SP
+2,Maria,12/01/2024,200,Teclado,RJ
+3,Felipe,27/02/2024,150,Headset,MG
+4,Marcos,10/02/2024,300,Monitor,ES
+5,Ana,23/03/2024,250,Mouse,SP
+6,Carlos,15/04/2024,120,MousePad,DF
+7,Melissa,13/05/2024,150,Teclado,RJ
+8,Carolina,10/06/2024,200,Teclado,SP
+9,Pamela,10/12/2024,300,Monitor,ES
+10,Thamires,10/11/2024,900,Processador,DF
+11,Claudio,16/02/2024,1300,Placa de Video,BA
+12,Alexandre,13/07/2024,800,PlacaMae,MG
+13,Fernando,16/08/2024,250,Headset,DF
+14,Marcela,11/03/2024,150,Headphone,SP
+15,Marcelle,10/05/2024,450,Headset,ES
+16,Philipe,21/09/2024,320,Teclado,RJ
+17,Wallace,23/06/2024,450,Headphone,MG
+18,Otavio,17/06/2024,520,Teclado,RJ
+19,Kleiton,10/10/2024,2000,Placa de Video,SP
+20,Elaine,26/01/2024,2200,Processador,ES
+21,Alice,12/05/2024,1800,PlacaMae,DF
+22,Bruna,11/07/2024,1000,MemoriaRam,BA
+23,Emerson,10/09/2024,300,Mouse,BA
+24,Arthur,12/02/2024,125,Headphone,DF
+25,Mayara,21/02/2024,340,Teclado,MG
+26,Raquel,29/08/2024,450,Teclado,MA
+27,Vandro,30/11/2024,550,Mouse,ES
+28,Anderson,25/04/2024,700,Processador,MA
+29,Lais,28/03/2024,950,PlacaMae,ES
+30,Luana,11/09/2024,120,Mouse,RJ
