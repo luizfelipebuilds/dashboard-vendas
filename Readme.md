@@ -1,3 +1,6 @@
+## 📸 Dashboard
+![Dashboard](dashboard.png)
+
 #  Dashboard de Vendas
 
 ## Objetivo
