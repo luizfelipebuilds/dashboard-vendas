@@ -1,21 +1,38 @@
 
 ---Vendas por Cliente
 
-  SELECT
+SELECT
     cliente,
-    SUM(valor) AS total_gasto
+    SUM(valor_total) AS total_gasto
 FROM vendas
 GROUP BY cliente
-ORDER BY total_gasto DESC;
+ORDER BY total_gasto DESC
 
 --Vendas por mês
 
-SELECT
+---Produto Mais Vendido em Faturamento
+
+  SELECT
     substr(data, 4, 2) AS mes,
     SUM(valor) AS total_vendas
 FROM vendas
 GROUP BY mes
 ORDER BY mes;
+
+----Produto Mais Vendido por Quantidade
+SELECT
+    produto,
+    SUM(quantidade) AS total_quantidade
+FROM vendas
+GROUP BY produto
+ORDER BY total_quantidade DESC;
+
+SELECT
+    produto,
+    SUM(valor_total) AS total_vendas
+FROM vendas
+GROUP BY produto
+ORDER BY total_vendas DESC;
 
 ---Total de Vendas
 
@@ -30,12 +47,12 @@ ORDER BY total_vendas DESC;
 
 SELECT
     estado,
-    SUM(valor) AS total_vendas
+    SUM(valor_total) AS total_vendas
 FROM vendas
-GROUP BY estado;
+GROUP BY estado
 
 ----Ticket Médio
 
 SELECT
-    AVG(valor) AS ticket_medio
+    AVG(valor_total) AS ticket_medio
 FROM vendas;
